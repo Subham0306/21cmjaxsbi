@@ -7,11 +7,11 @@
 
 `21cmjaxSBI` is a high-performance, simulator-agnostic **Simulation-Based Inference (SBI)** framework built in **JAX and Flax**. It implements **Neural Posterior Estimation (NPE)** with Mixture Density Networks (MDNs) to perform rapid, likelihood-free cosmological parameter constraints for the **Epoch of Reionization (EoR)**.
 
-Presented at the **ICTP Summer School on Cosmology (Trieste, Italy)**.
+Presented at the **International Center for Theoretical Physics (ICTP) Summer School on Cosmology (Trieste, Italy), 2026**.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * **JAX-Accelerated Engine:** Fully vectorized and JIT-compiled pipeline for rapid training and evaluation.
 * **Mixture Density Network (MDN):** Parameterizes complex, multi-modal posteriors using flexible Gaussian mixture components with Cholesky-factorized covariance matrices.
@@ -20,7 +20,7 @@ Presented at the **ICTP Summer School on Cosmology (Trieste, Italy)**.
 
 ---
 
-## 🛠️ Code Modules
+##  Code Modules
 
 1. **`data.py`**: Ingests Licorice / 21cmFAST light-cone power spectra, interpolates onto fixed $k$-bins, and applies log-scaling normalization.
 2. **`model.py`**: Defines the Flax `NPE` architecture with shared trunk layers, mixture weights, means, and Cholesky covariance blocks.
@@ -30,7 +30,7 @@ While this repository provides modularized source files under `src/cmjaxsbi/` (c
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Clone the repository and install in editable mode:
 
@@ -41,7 +41,7 @@ pip install -e .
 ```
 
 
-## 👤 About the Author & Collaboration
+##  About the Author & Collaboration
 
 This software framework was developed by **Subham Banerjee**, a graduate student in Astrophysics at the **University of Bonn** and guest researcher in the Radio Cosmology group at the **Max Planck Institute for Radio Astronomy (MPIfR)** in Bonn, Germany. 
 
@@ -52,14 +52,14 @@ The project is conducted under the academic supervision of **Prof. Jonathan R. P
 
 ---
 
-## 🚀 Roadmap & Future Versions (`v0.2.0+`)
+##  Roadmap & Future Versions (`v0.2.0+`)
 
 While `v0.1.0` establishes the foundational simulator-agnostic JAX/Flax NPE pipeline with dynamic SKA noise injection, upcoming releases will expand the methodology across higher-order summary statistics and physical models:
 
 * **`v0.2.0` — Higher-Order Topological Statistics:** 
   Integration of 2D/3D Minkowski Functionals and Betti numbers computed directly on 21-cm spatial brightness temperature maps to extract non-Gaussian structural information beyond the power spectrum.
 
-## 📖 Citation
+##  Citation
 
 If you use `21cmjaxSBI` in your academic research, PhD application portfolios, or publications, please cite it using the following BibTeX entry:
 
