@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="logo.jpeg" alt="21cmjaxSBI Logo" width="800">
+  <img src="logo.jpeg" alt="21cmjaxSBI Logo" width="400">
 </p>
 
 
