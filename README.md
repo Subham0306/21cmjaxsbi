@@ -38,6 +38,8 @@ Clone the repository and install in editable mode:
 git clone [https://github.com/your-username/21cmjaxsbi.git](https://github.com/Subham0306/21cmjaxsbi.git)
 cd 21cmjaxsbi
 pip install -e .
+```
+
 
 ## 👤 About the Author & Collaboration
 
