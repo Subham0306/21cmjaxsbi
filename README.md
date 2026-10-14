@@ -58,3 +58,19 @@ While `v0.1.0` establishes the foundational simulator-agnostic JAX/Flax NPE pipe
 
 * **`v0.2.0` — Higher-Order Topological Statistics:** 
   Integration of 2D/3D Minkowski Functionals and Betti numbers computed directly on 21-cm spatial brightness temperature maps to extract non-Gaussian structural information beyond the power spectrum.
+
+## 📖 Citation
+
+If you use `21cmjaxSBI` in your academic research, PhD application portfolios, or publications, please cite it using the following BibTeX entry:
+
+```bibtex
+@software{banerjee2026_21cmjaxsbi,
+  author       = {Subham Banerjee},
+  title        = {21cmjaxSBI: A Simulator-Agnostic JAX/Flax NPE Framework for 21-cm Cosmology},
+  month        = oct,
+  year         = 2026,
+  publisher    = {Figshare},
+  version      = {v0.1.0},
+  doi          = {10.6084/m9.figshare.34515834},
+  url          = {[https://doi.org/10.6084/m9.figshare.34515834](https://doi.org/10.6084/m9.figshare.34515834)}
+}
