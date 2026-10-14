@@ -1,5 +1,11 @@
 # 21cmjaxSBI (v0.1.0)
 
+<p align="center">
+  <img src="https://github.com/Subham0306/21cmjaxsbi/issues/1" alt="21cmjaxSBI Logo" width="800">
+</p>
+
+# 21cmjaxSBI
+
 [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.34515834-blue.svg)](https://doi.org/10.6084/m9.figshare.34515834)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![JAX](https://img.shields.io/badge/Backend-JAX%2FFlax-orange.svg)](https://github.com/google/jax)
