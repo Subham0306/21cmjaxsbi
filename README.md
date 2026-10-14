@@ -13,6 +13,25 @@
 
 `21cmjaxSBI` is a high-performance, **Simulation-Based Inference (SBI)** framework built in **JAX and Flax**. It implements **Neural Posterior Estimation (NPE)** with Mixture Density Networks (MDNs) to perform rapid, likelihood-free cosmological parameter constraints for the **Epoch of Reionization (EoR)**.
 
+### Target Parameters Constrained
+The SBI framework derives fast posterior distributions on **5 key astrophysical parameters** governing the Epoch of Reionization:
+
+* **$\tau$**: Star formation time scale.
+* **$\log M_{\text{min}}$**: Minimum host halo mass required for star-forming galaxies ($\log_{10}(M_{\text{min}}/M_\odot)$).
+* **$f_X$**: X-ray heating efficiency factor.
+* **$f_{\text{esc}}$**: Ionizing UV photon escape fraction.
+* **$r_{\text{H/S}}$**: Ratio of energy emitted per second in hard X-rays relative to total (hard + soft) X-ray emission.
+
+**Note on Example Data:** The mock datasets used for the example execution and training scripts in this repository are generated from radiative hydrodynamics simulations produced using the **LICORICE** code. You can access and download the specific simulation dataset used here: [https://21ssd.obspm.fr/](#).
+
+Posterior constraints on Epoch of Reionization parameters obtained using 21cmjaxSBI on a mock 21-cm power spectrum:
+
+<p align="center">
+  <img src="corner_plot.png" alt="Posterior Corner Plot" width="300">
+</p>
+
+The calibration tests and their results are included in the Jupyter notebook.
+
 Presented at the **International Center for Theoretical Physics (ICTP) Summer School on Cosmology (Trieste, Italy), 2026**.
 
 ---
