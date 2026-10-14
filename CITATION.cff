@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Banerjee"
+    given-names: "Subham"
+    affiliation: "University of Bonn & Max Planck Institute for Radio Astronomy"
+title: "21cmjaxsbi: A Simulator-Agnostic JAX/Flax NPE Framework for 21-cm Cosmology"
+version: 0.1.0
+date-released: 2026-10-14
+url: "https://github.com/your-username/21cmjaxsbi"

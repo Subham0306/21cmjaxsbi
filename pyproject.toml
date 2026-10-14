@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "21cmjaxsbi"
+version = "0.1.0"
+description = "Simulator-agnostic JAX/Flax NPE framework for 21-cm cosmology"
+readme = "README.md"
+authors = [
+    { name = "Subham Banerjee", email = "sbanerjee@mpifr-bonn.mpg.de" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "jax>=0.4.0",
+    "jaxlib>=0.4.0",
+    "flax>=0.7.0",
+    "optax>=0.1.0",
+    "numpy>=1.22.0",
+    "scipy>=1.8.0",
+    "matplotlib>=3.5.0",
+    "corner>=2.2.0",
+    "scikit-learn>=1.0.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["cmjaxsbi*"]
