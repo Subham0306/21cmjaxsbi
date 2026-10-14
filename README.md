@@ -38,3 +38,21 @@ Clone the repository and install in editable mode:
 git clone [https://github.com/your-username/21cmjaxsbi.git](https://github.com/Subham0306/21cmjaxsbi.git)
 cd 21cmjaxsbi
 pip install -e .
+
+## 👤 About the Author & Collaboration
+
+This software framework was developed by **Subham Banerjee**, a graduate student in Astrophysics at the **University of Bonn** and guest researcher in the Radio Cosmology group at the **Max Planck Institute for Radio Astronomy (MPIfR)** in Bonn, Germany. 
+
+The project is conducted under the academic supervision of **Prof. Jonathan R. Pritchard** (MPIfR / Imperial College London), focusing on scalable machine learning methods, simulation-based inference, and 21-cm cosmology for the Epoch of Reionization and Cosmic Dawn.
+
+* **GitHub:** [@Subham0306](https://github.com/Subham0306)
+* **Institutional Affiliations:** University of Bonn | Max Planck Institute for Radio Astronomy
+
+---
+
+## 🚀 Roadmap & Future Versions (`v0.2.0+`)
+
+While `v0.1.0` establishes the foundational simulator-agnostic JAX/Flax NPE pipeline with dynamic SKA noise injection, upcoming releases will expand the methodology across higher-order summary statistics and physical models:
+
+* **`v0.2.0` — Higher-Order Topological Statistics:** 
+  Integration of 2D/3D Minkowski Functionals and Betti numbers computed directly on 21-cm spatial brightness temperature maps to extract non-Gaussian structural information beyond the power spectrum.
