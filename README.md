@@ -1,11 +1,11 @@
-# 21cmjaxsbi (v0.1.0)
+# 21cmjaxSBI (v0.1.0)
 
 [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.34515834-blue.svg)](https://doi.org/10.6084/m9.figshare.34515834)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![JAX](https://img.shields.io/badge/Backend-JAX%2FFlax-orange.svg)](https://github.com/google/jax)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-`21cmjaxsbi` is a high-performance, simulator-agnostic **Simulation-Based Inference (SBI)** framework built in **JAX and Flax**. It implements **Neural Posterior Estimation (NPE)** with Mixture Density Networks (MDNs) to perform rapid, likelihood-free cosmological parameter constraints for the **Epoch of Reionization (EoR)**.
+`21cmjaxSBI` is a high-performance, simulator-agnostic **Simulation-Based Inference (SBI)** framework built in **JAX and Flax**. It implements **Neural Posterior Estimation (NPE)** with Mixture Density Networks (MDNs) to perform rapid, likelihood-free cosmological parameter constraints for the **Epoch of Reionization (EoR)**.
 
 Presented at the **ICTP Summer School on Cosmology (Trieste, Italy)**.
 
