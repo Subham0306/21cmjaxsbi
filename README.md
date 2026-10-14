@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/aa765e2c-cab9-453e-bdb9-32c0bf3e0b96" alt="21cmjaxSBI Logo" width="800">
+  <img src="https://github.com/user-attachments/logo.jpeg" alt="21cmjaxSBI Logo" width="800">
 </p>
 
 
