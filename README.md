@@ -17,7 +17,7 @@
 The SBI framework derives fast posterior distributions on **5 key astrophysical parameters** governing the Epoch of Reionization:
 
 * **$\tau$**: Star formation time scale.
-* **$\log M_{\text{min}}$**: Minimum host halo mass required for star-forming galaxies ($\log_{10}(M_{\text{min}}/M_\odot)$).
+* **$\log M_{\text{min}}$**: Minimum host halo mass required for star-forming galaxies.
 * **$f_X$**: X-ray heating efficiency factor.
 * **$f_{\text{esc}}$**: Ionizing UV photon escape fraction.
 * **$r_{\text{H/S}}$**: Ratio of energy emitted per second in hard X-rays relative to total (hard + soft) X-ray emission.
